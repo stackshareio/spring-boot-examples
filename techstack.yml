@@ -1,12 +1,12 @@
 repo_name: stackshareio/spring-boot-examples
-report_id: 3daeb662153347025653c5d8a8db6539
+report_id: 57049e134bb9392f7aa957c9f06788e9
 version: 0.1
 repo_type: Public
-timestamp: '2024-01-09T00:06:40+00:00'
+timestamp: '2024-02-15T18:33:31+00:00'
 requested_by: ityouknow
 provider: github
 branch: master
-detected_tools_count: 45
+detected_tools_count: 12
 tools:
 - name: CSS 3
   description: The latest evolution of the Cascading Style Sheets language
@@ -41,58 +41,6 @@ tools:
   detection_source: spring-boot-mybatis-plus/src/main/resources/db/data-h2.sql
   last_updated_by: 纯洁的微笑
   last_updated_on: 2019-05-13 09:30:48.000000000 Z
-- name: Spring Framework
-  description: An application framework and inversion of control container for the
-    Java platform
-  website_url: https://spring.io/projects/spring-framework
-  license: Apache-2.0
-  open_source: true
-  hosted_saas: false
-  category: Languages & Frameworks
-  sub_category: Frameworks (Full Stack)
-  image_url: https://img.stackshare.io/service/2006/spring-framework-project-logo.png
-  detection_source_url: https://github.com/stackshareio/spring-boot-examples/blob/master/dockercompose-springboot-mysql-nginx/app/pom.xml
-  detection_source: dockercompose-springboot-mysql-nginx/app/pom.xml
-  last_updated_by: 纯洁的微笑
-  last_updated_on: 2018-03-26 03:37:47.000000000 Z
-- name: jQuery
-  description: The Write Less, Do More, JavaScript Library.
-  website_url: http://jquery.com/
-  license: MIT
-  open_source: true
-  hosted_saas: false
-  category: Libraries
-  sub_category: Javascript UI Libraries
-  image_url: https://img.stackshare.io/service/1021/lxEKmMnB_400x400.jpg
-  detection_source_url: https://github.com/stackshareio/spring-boot-examples/blob/master/spring-boot-web/pom.xml
-  detection_source: spring-boot-web/pom.xml
-  last_updated_by: 纯洁的微笑
-  last_updated_on: 2019-03-01 05:44:11.000000000 Z
-- name: H2 Database
-  description: A relational database management system written in Java
-  website_url: http://www.h2database.com/
-  open_source: false
-  hosted_saas: false
-  category: Data Stores
-  sub_category: Databases
-  image_url: https://img.stackshare.io/service/3105/h2-logo_square_400x400.png
-  detection_source_url: https://github.com/stackshareio/spring-boot-examples/blob/master/spring-boot-mybatis-plus/pom.xml
-  detection_source: spring-boot-mybatis-plus/pom.xml
-  last_updated_by: 纯洁的微笑
-  last_updated_on: 2019-05-13 09:30:48.000000000 Z
-- name: Memcached
-  description: High-performance, distributed memory object caching system
-  website_url: http://memcached.org/
-  license: BSD-3-Clause
-  open_source: true
-  hosted_saas: false
-  category: Data Stores
-  sub_category: Databases
-  image_url: https://img.stackshare.io/service/1040/hDNnpa4a_400x400.jpg
-  detection_source_url: https://github.com/stackshareio/spring-boot-examples/blob/master/spring-boot-memcache-spymemcached/pom.xml
-  detection_source: spring-boot-memcache-spymemcached/pom.xml
-  last_updated_by: 纯洁的微笑
-  last_updated_on: 2018-08-30 04:04:28.000000000 Z
 - name: MongoDB
   description: The database for giant ideas
   website_url: http://www.mongodb.com/
@@ -101,23 +49,10 @@ tools:
   category: Data Stores
   sub_category: Databases
   image_url: https://img.stackshare.io/service/1030/leaf-360x360.png
-  detection_source_url: https://github.com/stackshareio/spring-boot-examples/blob/master/spring-boot-mongodb/spring-boot-mongodb/pom.xml
-  detection_source: spring-boot-mongodb/spring-boot-mongodb/pom.xml
+  detection_source_url: https://github.com/stackshareio/spring-boot-examples/blob/master/spring-boot-mongodb/spring-boot-multi-mongodb/src/main/java/com/neo/config/MultipleMongoConfig.java
+  detection_source: spring-boot-mongodb/spring-boot-multi-mongodb/src/main/java/com/neo/config/MultipleMongoConfig.java
   last_updated_by: 纯洁的微笑
   last_updated_on: 2019-03-18 02:07:02.000000000 Z
-- name: MyBatis
-  description: SQL Mapper Framework for Java
-  website_url: http://www.mybatis.org/mybatis-3/
-  license: Apache-2.0
-  open_source: true
-  hosted_saas: false
-  category: Data Stores
-  sub_category: Object Relational Mapper (ORM)
-  image_url: https://img.stackshare.io/service/5582/1483254.png
-  detection_source_url: https://github.com/stackshareio/spring-boot-examples/blob/master/spring-boot-mybatis/spring-boot-mybatis-annotation-mulidatasource/pom.xml
-  detection_source: spring-boot-mybatis/spring-boot-mybatis-annotation-mulidatasource/pom.xml
-  last_updated_by: ityouknow
-  last_updated_on: 2017-02-13 07:52:08.000000000 Z
 - name: MySQL
   description: The world's most popular open source database
   website_url: http://www.mysql.com
@@ -126,25 +61,12 @@ tools:
   category: Data Stores
   sub_category: Databases
   image_url: https://img.stackshare.io/service/1025/logo-mysql-170x170.png
-  detection_source_url: https://github.com/stackshareio/spring-boot-examples/blob/master/dockercompose-springboot-mysql-nginx/app/pom.xml
-  detection_source: dockercompose-springboot-mysql-nginx/app/pom.xml
+  detection_source_url: https://github.com/stackshareio/spring-boot-examples/blob/master/dockercompose-springboot-mysql-nginx/docker-compose.yaml
+  detection_source: dockercompose-springboot-mysql-nginx/docker-compose.yaml
   last_updated_by: 纯洁的微笑
   last_updated_on: 2018-03-26 03:37:47.000000000 Z
-- name: Redis
-  description: Open source (BSD licensed), in-memory data structure store
-  website_url: http://redis.io/
-  license: BSD-3-Clause
-  open_source: true
-  hosted_saas: false
-  category: Data Stores
-  sub_category: In-Memory Databases
-  image_url: https://img.stackshare.io/service/1031/default_cbce472cd134adc6688572f999e9122b9657d4ba.png
-  detection_source_url: https://github.com/stackshareio/spring-boot-examples/blob/master/spring-boot-redis/pom.xml
-  detection_source: spring-boot-redis/pom.xml
-  last_updated_by: 纯洁的微笑
-  last_updated_on: 2019-03-06 03:05:28.000000000 Z
 - name: Apache Maven
-  description: 'Apache build manager for Java projects. '
+  description: Apache build manager for Java projects.
   website_url: http://maven.apache.org/
   license: Apache-2.0
   open_source: true
@@ -177,6 +99,20 @@ tools:
   image_url: https://img.stackshare.io/service/1046/git.png
   detection_source_url: https://github.com/stackshareio/spring-boot-examples
   detection_source: Repo Metadata
+- name: Istio
+  description: Open platform to connect, manage, and secure microservices, by Google,
+    IBM, and Lyft
+  website_url: https://istio.io/
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Microservices Tools
+  image_url: https://img.stackshare.io/service/7028/AGpa5VZV.jpg
+  detection_source_url: https://github.com/stackshareio/spring-boot-examples/blob/master/spring-boot-shiro/src/main/resources/application.yml
+  detection_source: spring-boot-shiro/src/main/resources/application.yml
+  last_updated_by: ityouknow
+  last_updated_on: 2017-06-26 10:02:19.000000000 Z
 - name: Logback
   description: A logging framework for Java applications
   website_url: https://logback.qos.ch/
@@ -215,366 +151,3 @@ tools:
   detection_source: dockercompose-springboot-mysql-nginx/app/src/main/resources/application.properties
   last_updated_by: 纯洁的微笑
   last_updated_on: 2018-03-26 03:37:47.000000000 Z
-- name: Elasticsearch
-  description: Open Source, Distributed, RESTful Search Engine
-  website_url: https://www.elastic.co/products/elasticsearch
-  open_source: true
-  hosted_saas: false
-  category: Application Utilities
-  sub_category: Search as a Service
-  image_url: https://img.stackshare.io/service/841/Image_2019-05-20_at_4.58.04_PM.png
-  detection_source_url: https://github.com/stackshareio/spring-boot-examples/blob/master/spring-boot-elasticsearch/pom.xml
-  detection_source: spring-boot-elasticsearch/pom.xml
-  last_updated_by: 纯洁的微笑
-  last_updated_on: 2019-04-04 07:57:05.000000000 Z
-- name: com.h2database:h2
-  description: H2 Database Engine
-  license: MIT-feh
-  open_source: true
-  hosted_saas: false
-  category: Libraries
-  sub_category: Maven Packages
-  image_url: https://img.stackshare.io/package/maven/image.png
-  detection_source_url: https://github.com/stackshareio/spring-boot-examples/blob/master/spring-boot-mybatis-plus/pom.xml
-  detection_source: spring-boot-mybatis-plus/pom.xml
-  last_updated_by: 纯洁的微笑
-  last_updated_on: 2019-05-13 09:30:48.000000000 Z
-- name: com.sun.mail:javax.mail
-  description: "${project.name}"
-  license: CNRI-Python-GPL-Compatible
-  open_source: true
-  hosted_saas: false
-  category: Libraries
-  sub_category: Maven Packages
-  image_url: https://img.stackshare.io/package/maven/image.png
-  detection_source_url: https://github.com/stackshareio/spring-boot-examples/blob/master/spring-boot-mail/pom.xml
-  detection_source: spring-boot-mail/pom.xml
-  last_updated_by: 纯洁的微笑
-  last_updated_on: 2018-01-16 12:38:41.000000000 Z
-- name: de.codecentric:spring-boot-admin-starter-client
-  description: Spring Boot Admin Client Starter
-  version: 2.1.0
-  license: Apache-2.0
-  open_source: true
-  hosted_saas: false
-  category: Libraries
-  sub_category: Maven Packages
-  image_url: https://img.stackshare.io/package/maven/image.png
-  detection_source_url: https://github.com/stackshareio/spring-boot-examples/blob/master/spring-boot-admin-simple/spring-boot-admin-client/pom.xml
-  detection_source: spring-boot-admin-simple/spring-boot-admin-client/pom.xml
-  last_updated_by: 纯洁的微笑
-  last_updated_on: 2019-03-18 08:25:18.000000000 Z
-- name: io.springfox:springfox-swagger-ui
-  description: JSON API documentation for spring based applications
-  version: 2.9.2
-  license: Apache-2.0
-  open_source: true
-  hosted_saas: false
-  category: Libraries
-  sub_category: Maven Packages
-  image_url: https://img.stackshare.io/package/maven/image.png
-  detection_source_url: https://github.com/stackshareio/spring-boot-examples/blob/master/spring-boot-swagger/pom.xml
-  detection_source: spring-boot-swagger/pom.xml
-  last_updated_by: 纯洁的微笑
-  last_updated_on: 2019-04-04 08:08:24.000000000 Z
-- name: io.springfox:springfox-swagger2
-  description: JSON API documentation for spring based applications
-  version: 2.9.2
-  license: Apache-2.0
-  open_source: true
-  hosted_saas: false
-  category: Libraries
-  sub_category: Maven Packages
-  image_url: https://img.stackshare.io/package/maven/image.png
-  detection_source_url: https://github.com/stackshareio/spring-boot-examples/blob/master/spring-boot-swagger/pom.xml
-  detection_source: spring-boot-swagger/pom.xml
-  last_updated_by: 纯洁的微笑
-  last_updated_on: 2019-04-04 08:08:24.000000000 Z
-- name: mysql:mysql-connector-java
-  description: MySQL JDBC Type 4 driver
-  license: GPL-3.0-only
-  open_source: true
-  hosted_saas: false
-  category: Libraries
-  sub_category: Maven Packages
-  image_url: https://img.stackshare.io/package/maven/image.png
-  detection_source_url: https://github.com/stackshareio/spring-boot-examples/blob/master/dockercompose-springboot-mysql-nginx/app/pom.xml
-  detection_source: dockercompose-springboot-mysql-nginx/app/pom.xml
-  last_updated_by: 纯洁的微笑
-  last_updated_on: 2018-03-26 03:37:47.000000000 Z
-- name: net.sourceforge.nekohtml:nekohtml
-  description: An HTML parser and tag balancer
-  version: 1.9.22
-  license: Apache-2.0
-  open_source: true
-  hosted_saas: false
-  category: Libraries
-  sub_category: Maven Packages
-  image_url: https://img.stackshare.io/package/maven/image.png
-  detection_source_url: https://github.com/stackshareio/spring-boot-examples/blob/master/spring-boot-shiro/pom.xml
-  detection_source: spring-boot-shiro/pom.xml
-  last_updated_by: ityouknow
-  last_updated_on: 2017-06-26 10:02:19.000000000 Z
-- name: net.spy:spymemcached
-  description: A client library for memcached
-  version: 2.12.2
-  license: MIT
-  open_source: true
-  hosted_saas: false
-  category: Libraries
-  sub_category: Maven Packages
-  image_url: https://img.stackshare.io/package/maven/image.png
-  detection_source_url: https://github.com/stackshareio/spring-boot-examples/blob/master/spring-boot-memcache-spymemcached/pom.xml
-  detection_source: spring-boot-memcache-spymemcached/pom.xml
-  last_updated_by: 纯洁的微笑
-  last_updated_on: 2018-08-30 04:04:28.000000000 Z
-- name: nz.net.ultraq.thymeleaf:thymeleaf-layout-dialect
-  description: A dialect for Thymeleaf that allows you to use layout/decorator templates
-    to style your content
-  license: Apache-2.0
-  open_source: true
-  hosted_saas: false
-  category: Libraries
-  sub_category: Maven Packages
-  image_url: https://img.stackshare.io/package/maven/image.png
-  detection_source_url: https://github.com/stackshareio/spring-boot-examples/blob/master/spring-boot-thymeleaf/spring-boot-thymeleaf-layout/pom.xml
-  detection_source: spring-boot-thymeleaf/spring-boot-thymeleaf-layout/pom.xml
-  last_updated_by: 纯洁的微笑
-  last_updated_on: 2019-03-08 08:55:31.000000000 Z
-- name: org.apache.commons:commons-pool2
-  description: The Apache Commons Object Pooling Library
-  license: Apache-2.0
-  open_source: true
-  hosted_saas: false
-  category: Libraries
-  sub_category: Maven Packages
-  image_url: https://img.stackshare.io/package/maven/image.png
-  detection_source_url: https://github.com/stackshareio/spring-boot-examples/blob/master/spring-boot-redis/pom.xml
-  detection_source: spring-boot-redis/pom.xml
-  last_updated_by: 纯洁的微笑
-  last_updated_on: 2019-03-06 03:05:28.000000000 Z
-- name: org.apache.shiro:shiro-spring
-  version: 1.4.0
-  license: Apache-2.0
-  open_source: true
-  hosted_saas: false
-  category: Libraries
-  sub_category: Maven Packages
-  image_url: https://img.stackshare.io/package/maven/image.png
-  detection_source_url: https://github.com/stackshareio/spring-boot-examples/blob/master/spring-boot-shiro/pom.xml
-  detection_source: spring-boot-shiro/pom.xml
-  last_updated_by: ityouknow
-  last_updated_on: 2017-06-26 10:02:19.000000000 Z
-  vulnerabilities:
-  - name: Authentication bypass in Apache Shiro
-    cve_id: CVE-2020-17523
-    cve_url: https://github.com/advisories/GHSA-v98j-7crc-wvrj
-    detected_date: Feb 10
-    severity: critical
-    first_patched: 1.7.1
-  - name: Authentication bypass in Apache Shiro
-    cve_id: CVE-2020-17510
-    cve_url: https://github.com/advisories/GHSA-7cj4-gj8m-m2f7
-    detected_date: Aug 22
-    severity: critical
-    first_patched: 1.7.0
-- name: org.mybatis.spring.boot:mybatis-spring-boot-starter
-  description: Spring Boot Support for MyBatis
-  version: 2.0.0
-  license: Apache-2.0
-  open_source: true
-  hosted_saas: false
-  category: Libraries
-  sub_category: Maven Packages
-  image_url: https://img.stackshare.io/package/maven/image.png
-  detection_source_url: https://github.com/stackshareio/spring-boot-examples/blob/master/spring-boot-mybatis/spring-boot-mybatis-annotation-mulidatasource/pom.xml
-  detection_source: spring-boot-mybatis/spring-boot-mybatis-annotation-mulidatasource/pom.xml
-  last_updated_by: 纯洁的微笑
-  last_updated_on: 2019-03-13 08:51:46.000000000 Z
-- name: org.projectlombok:lombok
-  description: 'Spice up your java: Automatic Resource Management'
-  license: MIT
-  open_source: true
-  hosted_saas: false
-  category: Libraries
-  sub_category: Maven Packages
-  image_url: https://img.stackshare.io/package/maven/image.png
-  detection_source_url: https://github.com/stackshareio/spring-boot-examples/blob/master/spring-boot-mybatis-plus/pom.xml
-  detection_source: spring-boot-mybatis-plus/pom.xml
-  last_updated_by: 纯洁的微笑
-  last_updated_on: 2019-05-13 09:30:48.000000000 Z
-- name: org.springframework.boot:spring-boot-devtools
-  description: Spring Boot Developer Tools
-  license: Apache-2.0
-  open_source: true
-  hosted_saas: false
-  category: Libraries
-  sub_category: Maven Packages
-  image_url: https://img.stackshare.io/package/maven/image.png
-  detection_source_url: https://github.com/stackshareio/spring-boot-examples/blob/master/spring-boot-actuator/pom.xml
-  detection_source: spring-boot-actuator/pom.xml
-  last_updated_by: 纯洁的微笑
-  last_updated_on: 2018-02-06 12:41:34.000000000 Z
-- name: org.springframework.boot:spring-boot-starter
-  description: Core starter
-  license: Apache-2.0
-  open_source: true
-  hosted_saas: false
-  category: Libraries
-  sub_category: Maven Packages
-  image_url: https://img.stackshare.io/package/maven/image.png
-  detection_source_url: https://github.com/stackshareio/spring-boot-examples/blob/master/spring-boot-banner/pom.xml
-  detection_source: spring-boot-banner/pom.xml
-  last_updated_by: 纯洁的微笑
-  last_updated_on: 2018-03-03 08:01:55.000000000 Z
-- name: org.springframework.boot:spring-boot-starter-actuator
-  description: Starter for using Spring Boot's Actuator which provides production
-    ready features to help you monitor and manage your application
-  license: Apache-2.0
-  open_source: true
-  hosted_saas: false
-  category: Libraries
-  sub_category: Maven Packages
-  image_url: https://img.stackshare.io/package/maven/image.png
-  detection_source_url: https://github.com/stackshareio/spring-boot-examples/blob/master/spring-boot-actuator/pom.xml
-  detection_source: spring-boot-actuator/pom.xml
-  last_updated_by: 纯洁的微笑
-  last_updated_on: 2018-02-06 12:41:34.000000000 Z
-- name: org.springframework.boot:spring-boot-starter-data-jpa
-  description: Starter for using Spring Data JPA with Hibernate
-  license: Apache-2.0
-  open_source: true
-  hosted_saas: false
-  category: Libraries
-  sub_category: Maven Packages
-  image_url: https://img.stackshare.io/package/maven/image.png
-  detection_source_url: https://github.com/stackshareio/spring-boot-examples/blob/master/dockercompose-springboot-mysql-nginx/app/pom.xml
-  detection_source: dockercompose-springboot-mysql-nginx/app/pom.xml
-  last_updated_by: 纯洁的微笑
-  last_updated_on: 2018-03-26 03:37:47.000000000 Z
-- name: org.springframework.boot:spring-boot-starter-data-mongodb
-  description: Starter for using MongoDB document-oriented database and Spring Data
-    MongoDB
-  license: Apache-2.0
-  open_source: true
-  hosted_saas: false
-  category: Libraries
-  sub_category: Maven Packages
-  image_url: https://img.stackshare.io/package/maven/image.png
-  detection_source_url: https://github.com/stackshareio/spring-boot-examples/blob/master/spring-boot-mongodb/spring-boot-mongodb/pom.xml
-  detection_source: spring-boot-mongodb/spring-boot-mongodb/pom.xml
-  last_updated_by: 纯洁的微笑
-  last_updated_on: 2019-03-18 02:07:02.000000000 Z
-- name: org.springframework.boot:spring-boot-starter-data-redis
-  description: Starter for using Redis key-value data store with Spring Data Redis
-    and the Lettuce client
-  license: Apache-2.0
-  open_source: true
-  hosted_saas: false
-  category: Libraries
-  sub_category: Maven Packages
-  image_url: https://img.stackshare.io/package/maven/image.png
-  detection_source_url: https://github.com/stackshareio/spring-boot-examples/blob/master/spring-boot-redis/pom.xml
-  detection_source: spring-boot-redis/pom.xml
-  last_updated_by: 纯洁的微笑
-  last_updated_on: 2019-03-06 03:05:28.000000000 Z
-- name: org.springframework.boot:spring-boot-starter-mail
-  description: Starter for using Java Mail and Spring Framework's email sending support
-  license: Apache-2.0
-  open_source: true
-  hosted_saas: false
-  category: Libraries
-  sub_category: Maven Packages
-  image_url: https://img.stackshare.io/package/maven/image.png
-  detection_source_url: https://github.com/stackshareio/spring-boot-examples/blob/master/spring-boot-mail/pom.xml
-  detection_source: spring-boot-mail/pom.xml
-  last_updated_by: 纯洁的微笑
-  last_updated_on: 2019-03-18 02:07:02.000000000 Z
-- name: org.springframework.boot:spring-boot-starter-test
-  description: Starter for testing Spring Boot applications with libraries including
-    JUnit
-  license: Apache-2.0
-  open_source: true
-  hosted_saas: false
-  category: Libraries
-  sub_category: Maven Packages
-  image_url: https://img.stackshare.io/package/maven/image.png
-  detection_source_url: https://github.com/stackshareio/spring-boot-examples/blob/master/dockercompose-springboot-mysql-nginx/app/pom.xml
-  detection_source: dockercompose-springboot-mysql-nginx/app/pom.xml
-  last_updated_by: 纯洁的微笑
-  last_updated_on: 2018-03-26 03:37:47.000000000 Z
-- name: org.springframework.boot:spring-boot-starter-thymeleaf
-  description: Starter for building MVC web applications using Thymeleaf views
-  license: Apache-2.0
-  open_source: true
-  hosted_saas: false
-  category: Libraries
-  sub_category: Maven Packages
-  image_url: https://img.stackshare.io/package/maven/image.png
-  detection_source_url: https://github.com/stackshareio/spring-boot-examples/blob/master/spring-boot-fastDFS/pom.xml
-  detection_source: spring-boot-fastDFS/pom.xml
-  last_updated_by: 纯洁的微笑
-  last_updated_on: 2018-01-11 02:30:45.000000000 Z
-- name: org.springframework.boot:spring-boot-starter-tomcat
-  description: Starter for using Tomcat as the embedded servlet container
-  license: Apache-2.0
-  open_source: true
-  hosted_saas: false
-  category: Libraries
-  sub_category: Maven Packages
-  image_url: https://img.stackshare.io/package/maven/image.png
-  detection_source_url: https://github.com/stackshareio/spring-boot-examples/blob/master/spring-boot-package-war/pom.xml
-  detection_source: spring-boot-package-war/pom.xml
-  last_updated_by: ityouknow
-  last_updated_on: 2017-05-08 07:21:37.000000000 Z
-- name: org.springframework.boot:spring-boot-starter-web
-  description: Starter for building web, including RESTful, applications using Spring
-    MVC
-  license: Apache-2.0
-  open_source: true
-  hosted_saas: false
-  category: Libraries
-  sub_category: Maven Packages
-  image_url: https://img.stackshare.io/package/maven/image.png
-  detection_source_url: https://github.com/stackshareio/spring-boot-examples/blob/master/dockercompose-springboot-mysql-nginx/app/pom.xml
-  detection_source: dockercompose-springboot-mysql-nginx/app/pom.xml
-  last_updated_by: 纯洁的微笑
-  last_updated_on: 2018-03-26 03:37:47.000000000 Z
-- name: org.springframework:spring-context-support
-  description: Spring Context Support
-  license: Apache-2.0
-  open_source: true
-  hosted_saas: false
-  category: Libraries
-  sub_category: Maven Packages
-  image_url: https://img.stackshare.io/package/maven/image.png
-  detection_source_url: https://github.com/stackshareio/spring-boot-examples/blob/master/spring-boot-mail/pom.xml
-  detection_source: spring-boot-mail/pom.xml
-  last_updated_by: 纯洁的微笑
-  last_updated_on: 2019-03-18 02:07:02.000000000 Z
-- name: org.webjars.bower:bootstrap
-  description: WebJar for bootstrap
-  version: 3.0.3
-  license: MIT
-  open_source: true
-  hosted_saas: false
-  category: Libraries
-  sub_category: Maven Packages
-  image_url: https://img.stackshare.io/package/maven/image.png
-  detection_source_url: https://github.com/stackshareio/spring-boot-examples/blob/master/spring-boot-web/pom.xml
-  detection_source: spring-boot-web/pom.xml
-  last_updated_by: 纯洁的微笑
-  last_updated_on: 2019-03-01 05:44:11.000000000 Z
-- name: org.webjars.bower:jquery
-  description: WebJar for jquery
-  version: 2.0.3
-  license: MIT
-  open_source: true
-  hosted_saas: false
-  category: Libraries
-  sub_category: Maven Packages
-  image_url: https://img.stackshare.io/package/maven/image.png
-  detection_source_url: https://github.com/stackshareio/spring-boot-examples/blob/master/spring-boot-web/pom.xml
-  detection_source: spring-boot-web/pom.xml
-  last_updated_by: 纯洁的微笑
-  last_updated_on: 2019-03-01 05:44:11.000000000 Z
