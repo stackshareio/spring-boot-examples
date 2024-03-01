@@ -1,12 +1,12 @@
 repo_name: stackshareio/spring-boot-examples
-report_id: 7b3f72c7a64d30cede1d514f44842bdc
+report_id: c2e3d162ce8e8bf2809b8f550ed31645
 version: 0.1
 repo_type: Public
-timestamp: '2024-02-16T00:23:12+00:00'
+timestamp: '2024-03-01T20:36:46+00:00'
 requested_by: ityouknow
 provider: github
 branch: master
-detected_tools_count: 12
+detected_tools_count: 11
 tools:
 - name: CSS 3
   description: The latest evolution of the Cascading Style Sheets language
@@ -99,20 +99,6 @@ tools:
   image_url: https://img.stackshare.io/service/1046/git.png
   detection_source_url: https://github.com/stackshareio/spring-boot-examples
   detection_source: Repo Metadata
-- name: Istio
-  description: Open platform to connect, manage, and secure microservices, by Google,
-    IBM, and Lyft
-  website_url: https://istio.io/
-  license: Apache-2.0
-  open_source: true
-  hosted_saas: false
-  category: Build, Test, Deploy
-  sub_category: Microservices Tools
-  image_url: https://img.stackshare.io/service/7028/AGpa5VZV.jpg
-  detection_source_url: https://github.com/stackshareio/spring-boot-examples/blob/master/spring-boot-shiro/src/main/resources/application.yml
-  detection_source: spring-boot-shiro/src/main/resources/application.yml
-  last_updated_by: ityouknow
-  last_updated_on: 2017-06-26 10:02:19.000000000 Z
 - name: Logback
   description: A logging framework for Java applications
   website_url: https://logback.qos.ch/
